@@ -26,7 +26,59 @@
         <button class="login_btn">Submit</button>
       </form>
     </nav>
-    <main></main>
+    <main class="app">
+      <section class="display">
+        <div class="balance">
+          <div>
+            <p class="balance_label">Current Balance</p>
+            <p class="balance_date"><span>11/15/2024</span></p>
+          </div>
+          <p class="balance_value">$0000</p>
+        </div>
+        <div class="money_movments">
+          <div class="movements_row">
+            <div class="movements_type deposit">2 deposit</div>
+            <div class="movements_date">3 days ago</div>
+            <div class="deposit_value">$0,000</div>
+          </div>
+          <div class="movements_row">
+            <div class="movements_type withdrawal">1 withdrawal</div>
+            <div class="movements_date">11/01/2024</div>
+            <div class="withdrawal_value">-378$</div>
+          </div>
+        </div>
+        <div class="summary">
+          <p class="summary_label">In</p>
+          <p class="summary_value value_in">$0000</p>
+          <p class="summary_label">Out</p>
+          <p class="summary_value value_out">$0000</p>
+          <p class="summary_label">Interest</p>
+          <p class="summary_value value_interest">$0000</p>
+        </div>
+      </section>
+
+      <section class="operations">
+        <div class="operation_type transfer">
+          <h2>Transfer money</h2>
+          <form class="form form_transfer">
+            <input type="text" class="form_input input_to" />
+            <input type="number" class="form_input input_amount" />
+            <button class="form_btn btn_transfer">&rarr;</button>
+            <label class="form_label">Transfer to</label>
+            <label class="form_label">Amount</label>
+          </form>
+        </div>
+
+        <div class="operation_type loan">
+          <h2>Request loan</h2>
+          <form class="form form_loan">
+            <input type="number" class="form_input input_loan" />
+            <label class="form_label label_loan">Amount</label>
+            <button class="form_btn btn_loan">&rarr;</button>
+          </form>
+        </div>
+      </section>
+    </main>
     <footer></footer>
     <script src="script.js"></script>
   </body>
