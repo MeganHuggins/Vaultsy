@@ -130,7 +130,7 @@ nav {
   padding: 2.25rem 4rem;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #eee;
+  border-bottom: 2px solid #eee;
 }
 
 .movements_type {
@@ -151,14 +151,15 @@ nav {
 }
 
 .deposit {
-  background-image: linear-gradient(to top left, #39b385, #9be15d);
+  background-image: linear-gradient(to top left, #39b385, #00acdf);
 }
 
 .withdrawal {
   background-image: linear-gradient(to top left, #e52a5a, #ff585f);
 }
 
-.value {
+.withdrawal_value,
+.deposit_value {
   font-size: 1.7rem;
   margin-left: auto;
 }
